@@ -17,14 +17,9 @@ Traversal is the process of visiting nodes in a tree.
 1. Depth-First Search (DFS)
 - Explores as deep as possible before backtracking.
 
-Preorder (Root → Left → Right)
-Used for copying a tree.
-
-Inorder (Left → Root → Right)
-Used in Binary Search Trees (BSTs) to retrieve sorted values.
-
-Postorder (Left → Right → Root)
-Used for deleting trees (deletes child nodes before the parent).
+- Preorder (Root → Left → Right): Used for copying a tree.
+- Inorder (Left → Root → Right): Used in Binary Search Trees (BSTs) to retrieve sorted values.
+- Postorder (Left → Right → Root): Used for deleting trees (deletes child nodes before the parent).
 
 2. Breadth-First Search (BFS)
 - Also called Level Order Traversal.
