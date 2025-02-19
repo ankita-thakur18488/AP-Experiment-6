@@ -1,12 +1,34 @@
 # AP-Experiment-6
 
 # Trees
-A tree is a hierarchical data structure that consists of nodes connected by edges. It is widely used in databases, file systems, AI, and various applications where hierarchical relationships need to be maintained.
+A tree is a hierarchical data structure that consists of nodes connected by edges. Unlike linear data structures like arrays and linked lists, trees are non-linear, making them ideal for representing hierarchical relationships such as file systems, database indexes, and decision-making processes.
+
 
 ![image](https://github.com/user-attachments/assets/9a8738a5-20c1-49b9-a766-18f60eb6c34a)
 
+## Type of Tree 
+
+![image](https://github.com/user-attachments/assets/41952b97-f912-466a-90e5-07b10215b5b7)
 
 
+## Tree Traversal Methods
+Traversal is the process of visiting nodes in a tree.
+
+1. Depth-First Search (DFS)
+- Explores as deep as possible before backtracking.
+
+Preorder (Root → Left → Right)
+Used for copying a tree.
+
+Inorder (Left → Root → Right)
+Used in Binary Search Trees (BSTs) to retrieve sorted values.
+
+Postorder (Left → Right → Root)
+Used for deleting trees (deletes child nodes before the parent).
+
+2. Breadth-First Search (BFS)
+- Also called Level Order Traversal.
+- Explores all nodes at one level before moving to the next.
 
 # 🌳 Trees Problems
 
